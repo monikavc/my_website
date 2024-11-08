@@ -1,0 +1,70 @@
+/* asterisk denotes for the entire html webpage */
+
+* {
+    margin: .5rem;
+    /* there is also px and em used for margin*/
+    font-family: georgia;
+    scroll-behavior: smooth;
+}
+
+#leftside {
+    background-color: antiquewhite;
+    height: 100;
+    margin-top: -10px;
+    margin-left: 15px;
+    width: 25%;
+    position: fixed;
+    border: solid, 2px, grey;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.navlink {
+    background-color: rgb(176, 173, 173);
+    display: block;
+    padding: .5rem;
+    width: fit-content;
+    color: black;
+
+}
+
+.navlink:hover {
+    color: purple;
+}
+
+.navlink:active {
+    color: red;
+}
+
+main {
+    height: 100%;
+    width: 75%;
+    background-color: antiquewhite;
+    margin-left: 35%;
+    margin-top: -10px;
+    padding: .5rem;
+}
+
+header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p, ul, ol {
+    font-size: 13px;
+}
+
+/* to make italics and bold have no whitespace before or after*/
+u, i,b, p {
+    margin: 0;
+}
+
+#subtitle {
+    font-weight: bold;
+}
+
+section {
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+}

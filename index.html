@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Monika's Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- this is a comment -->
+
+    <body>
+        <!-- attribute is part of the element, like <a href=> contains the URL -->
+        <div id="#leftside">
+            <h2> This is the heading</h2>
+            
+            <nav> 
+                <!-- class is a way to identify the element -->
+                <a class="navlink" href="#aboutme">About Me </a> <!-- is the "text" of the hyperlink -->
+                <a class="navlink" href="#contactme"> Contact Me </a>
+                <a class="navlink" href="#educationalbackground"> Educational Background </a>
+                <a class="navlink" href="#professionalexperience"> Professional Experience</a>
+            </nav>
+        </div>
+        
+        <!-- indicates start of a navigation bar -->
+        
+        <!-- ABOUT ME-->
+        <section id="aboutme"> 
+            <!-- id is used to differentiate sections -->
+            <header>About Me</header>
+            <p>This is all about me.</p>
+        </section>
+
+        <!-- CONTACT ME-->
+        <section id="contactme"> 
+            <header>Contact Me</header>
+            <p>Email: monikaVC@yahoo.com</p>
+            <!-- Target attribute opens link in a new tab -->
+            <p>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/monika-von-cyga/"> </a></p>
+            <p>GitHub: <a target="_blank" href="https://github.com/monikavc"> </a></p>
+        </section>
+
+        <!-- EDUCATIONAL BACKGROUND -->
+        <section id="educationalbackground">
+                <header>Educational Background</header>
+                <div>
+                    <p id="subtitle"> Queens College, CUNY</p>
+                    <!-- ul is unordered list -->
+                     <ul>
+                        <!-- li is for bullet points -->
+                        <!-- u is to underline -->
+                         <!-- b is to bold -->
+                        <li><u>Relevant Coursework</u>: Calculus 1 and 2, Object-Oriented Programming, Statistics & Probability, Discrete Mathematics, Physics 1, Weather Climate & Change</li>
+                     </ul>
+                </div>
+        </section>
+
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <section id="professionalexperience"> 
+            <header>Professional Experience </header>
+            <p id="subtitle">Job #1</p>
+            <p> location | dates </p>
+            <!-- ol is ordered list -->
+            <ol> 
+                <li> point 1</li>
+                <li> point 2</li>
+                <li> point 3</li>
+            </ol>
+        </section>
+
+
+        <hr> <!-- hr element is a line division -->
+        <footer>
+            Updated November 07, 2024 
+            <p>Created on November 06, 2024</p>
+        </footer>
+    </body>
+</html>
